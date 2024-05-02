@@ -1,0 +1,434 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/~psmillie/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/~psmillie/css/katex.min.css">
+    <title>Differential Geometry 1 Summer 2023</title>
+  </head>
+  <body>
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #990000;">
+  <div class="container">
+    <a class="navbar-brand" href="https://www.uni-heidelberg.de/">
+      <img src="../images/siegel_small.png" alt="Universit&auml;t Heidelberg">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar1">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="#content">Content</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#literature">Literature</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#resources">Resources</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#rules">Rules</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#diary">Schedule</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container">
+<div class="pb-2 mt-4 mb-4 border-bottom">
+  <h1>Differential Geometry 1 <small class="text-muted">Summer 2023</small></h1>
+</div>
+<dl class="dl">
+  <dt>Lecturer:</dt>
+  <dd><a href='https://www.mathi.uni-heidelberg.de/~psmillie/'>JProf. Peter Smillie</a></dd>
+  <dd>Office hours: Monday 11-12<dd>
+  <dd> Lectures: Mo, Fri 9-11, H&ouml;rsaal</dd>
+  <dd>Language of Instruction: English</dd>
+  <dt>Tutor:</dt>
+  <dd>Paula Heim </dd>
+  <dd> Exercise sessions: Wed 9-11, SR A </dd>
+  <dd>Valentina Disarlo </dd>
+</dl>
+
+<dl class="dl-horizontal">
+  <dt>M&uuml;sli: <a href='https://muesli.mathi.uni-heidelberg.de/lecture/view/1667'>Differentialgeometrie1 </a></dt>
+  <dt><a href="dg_beschreibung.pdf">Module description (pdf) </a></dt>
+  <dt><a href="https://www.overleaf.com/read/vjwkypzmmdjj">Script (overleaf)</a></dt>
+  <dt><a href="https://docs.google.com/spreadsheets/d/1i5uJE1S4C2E0fGam94MBaGHUOVYooRbSZAq6qfC0eNA/edit?usp=sharing">Script signup sheet (google doc)</a></dt>
+  <dt><a href="https://mampf.mathi.uni-heidelberg.de/lectures/163">MaMpf</a></dt>
+</dl>
+
+<h2 id="content">Content</h2>
+
+<p> Topics: Manifolds, vector bundles, embeddings and submersions, integral curves and flows, basic Lie groups, differential forms and integration, Riemannian metrics, geodesics, connections, curvature.
+
+<p> Course goals: Learn the modern language of smooth manifolds; become comfortable performing calculations in Riemannian geometry in many concrete examples; understand how the local invariants of a Riemannian manifold constrain its global topology.
+
+<p> Recommended prerequisites: Analysis I and II (MA1, MA2) and Linear Algebra I and II (MA4, MA5)
+</p>
+
+
+<h2 id="literature">Literature (English)</h2>
+
+
+<ul>
+<li>Lee: <a href="https://link.springer.com/book/10.1007/978-1-4419-9982-5">Introduction to Smooth Manifolds</a></li>
+<li>Lee: <a href="https://link.springer.com/book/10.1007/978-3-319-91755-9">Introduction to Riemmanian Manifolds</a></li>
+<li>Guillemin-Haine: Differential Forms</li>
+<li>Gallot-Hulin-Lafontaine: Riemannian Geometry</li>
+<li>Do Carmo: Riemannian Geometry</li>
+<li>Spivak: A comprehensive introduction to differential geometry (Volumes 2 + 3)</li>
+<li>Boothby: <a href="https://www.elsevier.com/books/an-introduction-to-differentiable-manifolds-and-riemannian-geometry-revised/boothby/978-0-08-057475-2">
+	An Introduction to Differentiable Manifolds and Riemannian Geometry</a></li>
+<li>Kobayashi-Nomizu: Foundations of Differential Geometry</li>
+<li>Gullemin-Pollack: Differential Topology</li>
+</ul>
+
+
+
+
+<h2 id ="resources">German resources</h2>
+<ul>
+<li>Skript zur <a href="https://www.mathi.uni-heidelberg.de/~walcher/teaching/sose17/diffgeo1/DiffGeo1.pdf"> Differentialgeometrie I </a> bei Johannes Walcher im 2017 </li>
+<li>Skript zur <a href="http://www.mathi.uni-heidelberg.de/~alessandrini/Differentialgeometrie_Skript_Tim_Adler_WS1213.pdf">Differentialgeometrie I</a> bei Anna Wienhard im WS12/13, erstellt von Tim Adler</li>
+<li>Ballmann: <a href="http://people.mpim-bonn.mpg.de/hwbllmnn/notes.html">Lectures on Differential Geometry</a></li>
+</ul>
+
+
+<h2 id ="rules">Exam</h2>
+
+<p>
+The second final exam is a written exam held on Friday, September 29 from 9:15 - 10:45 in room SR4 in the Mathematikon.
+
+The first final exam was a written exam held on Friday, July 28.
+</p>
+
+
+<h2> Exercises </h2>
+
+<p> Exercises are due on Friday by the beginning of class. They can be submitted on <a href="https://mampf.mathi.uni-heidelberg.de/lectures/163">MaMpf</a>. They should be sumbitted in groups of 3-5 people. Please include the name of every group member on the uploaded file. Write clearly in large letters in English. 
+
+<div class="table-responsive">
+<table class="table table-bordered table-condensed">
+     <thead class="table-light">
+      <tr>
+        <th>Exersise sheet</th>
+        <th>Due date</th>
+      </tr>
+      </thead>
+      <tbody></tbody>
+    
+    <tr>
+      <td> <a href="Exercise_Sheet_1.pdf">Exercise sheet 1 </a> </td>
+      <td> Friday, 28.04</td>
+    </tr>
+    
+    <tr>
+      <td> <a href="Exercise_Sheet_2.pdf">Exercise sheet 2 </a> </td>
+      <td> Friday, 05.05</td>
+    </tr>
+    
+    <tr>
+      <td> Week 3: no exercises </a> </td>
+      <td> </td>
+    </tr>
+    
+    <tr>
+      <td> <a href="Exercise_Sheet_3.pdf">Exercise sheet 3 </a> </td>
+      <td> Friday, 19.05</td>
+    </tr>
+    
+    <tr>
+      <td> <a href="Exercise_Sheet_4.pdf">Exercise sheet 4 </a> </td>
+      <td> Friday, 26.05</td>
+    </tr>
+    
+    <tr>
+      <td> Week 6: no exercises </a> </td>
+      <td> </td>
+    </tr>
+    
+    <tr>
+      <td> <a href="Exercise_Sheet_5.pdf">Exercise sheet 5 </a> </td>
+      <td> Friday, 09.06</td>
+    </tr>
+    
+    <tr>
+      <td> <a href="Exercise_Sheet_6.pdf">Exercise sheet 6 </a> </td>
+      <td> Friday, 16.06</td>
+    </tr>
+    
+    <tr>
+      <td> <a href="Exercise_Sheet_7.pdf">Exercise sheet 7 </a> </td>
+      <td> Monday, 26.06</td>
+    </tr>
+    
+    <tr>
+      <td> <a href="Exercise_Sheet_8.pdf">Exercise sheet 8 </a> </td>
+      <td> Monday, 03.07</td>
+    </tr>
+    
+    <tr>
+      <td> <a href="Exercise_Sheet_9.pdf">Exercise sheet 9 </a> </td>
+      <td> Friday, 14.07</td>
+    </tr>
+    
+    </tbody>
+  </table>
+</div>
+
+
+
+<h2 id="diary">Schedule of the lectures</h2>
+
+
+<div class="table-responsive">
+<table class="table table-bordered table-condensed">
+     <thead class="table-light">
+      <tr>
+        <th>Date</th>
+        <th>Content</th>
+        <th>Reference</th>
+        <th>Notes</th>
+      </tr>
+      </thead>
+      <tbody></tbody>
+      
+      <tr>
+        <td>17.04</td>
+        <td> Course overview, definition of manifold.</td>
+        <td> Guillemin-Pollack Ch. 1.1, Boothby Ch. 1</td>
+        <td> <a href="Lecture 1.pdf">Handwritten notes</a></td>
+      </tr>
+
+      <tr>
+        <td>21.04</td>
+        <td> Inverse function theorem</td>
+        <td> Guillemin-Pollack Ch. 1.2-3, Boothby  Ch. 2</td>
+        <td> <a href="Lecture 2.pdf">Handwritten notes</a></td> 
+      </tr>
+
+      <tr>
+        <td>24.04</td>
+        <td>Abstract manifolds and quotients</td>
+        <td> Boothby Ch. 3</td>
+        <td> <a href="Lecture 3.pdf">Handwritten notes</a></td> 
+      </tr>
+
+      <tr>
+        <td>28.04</td>
+        <td>Vector fields and flows</td>
+        <td>Boothby Ch. 4</td>
+        <td> <a href="Lecture 4.pdf">Handwritten notes</a></td>
+      </tr>
+      
+      <tr>
+        <td>05.05</td>
+        <td>Vector fields and flows cont'd</td>
+        <td>Boothby Ch. 4</td>
+        <td><a href="Lecture 5.pdf">Handwritten notes</a></td>
+      </tr>
+      
+      <tr>
+        <td>08.05</td>
+        <td>Lie algebras and Lie groups</td>
+        <td> Boothby Ch. 4, Lee (Smooth Manifold) Ch. 7</td>
+        <td><a href="Lecture 6.pdf">Handwritten notes</a> </td>
+      </tr>
+      
+      <tr>
+        <td>12.05</td>
+        <td>Derivations and Frobenius</td>
+        <td> Boothby Ch. 4</td>
+        <td><a href="Lecture 7.pdf">Handwritten notes</a> </td>
+      </tr>
+      
+      <tr>
+        <td>15.05</td>
+        <td>Covectors and Riemannian metrics, isometry</td>
+        <td>Boothby Ch. 5.1-3</td>
+        <td><a href="Lecture 8.pdf">Handwritten notes</a> </td>
+      </tr>
+      
+      <tr>
+        <td>19.05</td>
+        <td>Tensors and exterior algebra</td>
+        <td>Boothby Ch 5.5-8</td>
+        <td><a href="Lecture 9.pdf">Handwritten notes</a> </td>
+      </tr>
+      
+      <tr>
+        <td>22.05</td>
+        <td>Tensor fields on manifolds</td>
+        <td>Boothby Ch 5.5-8</td>
+        <td><a href="Lecture 10.pdf">Handwritten notes</a> </td>
+      </tr>
+      
+      <tr>
+        <td>26.05</td>
+        <td>Tensors and exterior algebra</td>
+        <td>Boothby Ch 5.5-8</td>
+        <td><a href="Lecture 11.pdf">Handwritten notes</a> </td>
+      </tr>
+      
+      <tr>
+        <td>02.06</td>
+        <td>Orientation and integration</td>
+        <td>Boothby Ch. 6.1-4, Lee Ch. 16.1-2, 16.5</td>
+        <td><a href="Lecture 12.pdf">Handwritten notes</a> </td>
+      </tr>
+
+      <tr>
+        <td>05.06</td>
+        <td>Stokes theorem</td>
+        <td>Boothby Ch. 6.1-5, Lee 16.3</td>
+        <td><a href="Lecture 13.pdf">Handwritten notes</a> </td>
+      </tr>
+      
+      <tr>
+        <td>09.06</td>
+        <td>Plane curves</td>
+        <td>Do Carmo (Curves and Surfaces) Ch. 1</td>
+       <td><a href="Lecture 14.pdf">Handwritten notes</a> </td>
+      </tr>
+      
+      <tr>
+        <td>12.06</td>
+        <td>Space curves</td>
+        <td>Do Carmo Ch. 1, Spivak (Vol 2) Ch. 1</td>
+       <td><a href="Lecture 15.pdf">Handwritten notes</a> </td>
+      </tr>
+      
+      <tr>
+        <td>14.06</td>
+        <td>The Gauss map, curvature of surfaces</td>
+        <td>Do Carmo (Curves and Surfaces) Ch. 3</td>
+       <td><a href="Lecture 16.pdf">Handwritten notes</a> </td>
+      </tr>
+      
+      <tr>
+        <td>19.06</td>
+        <td>Connections and Theorem Egregium</td>
+        <td>Do Carmo 4.3, Lee (Riemannian manifolds) ch. 4</td>
+       <td><a href="Lecture 17.pdf">Handwritten notes</a> </td>
+      </tr>
+      
+      <tr>
+        <td>23.06</td>
+        <td>The Levi-Civita connection</td>
+        <td>Lee (R.M.) ch. 5.1-2</td>
+       <td><a href="Lecture 18.pdf">Handwritten notes</a> </td>
+      </tr>
+      
+      <tr>
+        <td>26.06</td>
+        <td>Geodesics, exponential map</td>
+        <td>Lee (R.M.) Ch. 5-6, Do Carmo (C.S) Ch. 4.4-6</td>
+       <td><a href="Lecture 19.pdf">Handwritten notes</a> </td>
+      </tr>
+
+      <tr>
+        <td>30.06</td>
+        <td>Metric spaces and the Hopf-Rinow theorem</td>
+        <td>Lee (R.M) Ch. 6, Do Carmo (C.S) Ch. 3.3</td>
+       <td><a href="Lecture 20.pdf">Handwritten notes</a> </td>
+      </tr>
+      
+      <tr>
+        <td>03.07</td>
+        <td>The curvature tensor</td>
+        <td>Lee (R.M) Ch. 7.1-2</td>
+       <td><a href="Lecture 21.pdf">Handwritten notes</a> </td>
+      </tr>
+      
+      <tr>
+        <td>07.07</td>
+        <td>The Gauss-Bonnet theorem</td>
+        <td>Lee (R.M) Ch. 9, Do Carmo (C.S.) Ch. 4.5</td>
+       <td><a href="Lecture 22.pdf">Handwritten notes</a> </td>
+      </tr>
+      
+      <tr>
+        <td>10.07</td>
+        <td>Curvature and distance functions</td>
+        <td>Lee (R.M) Ch. 9, Do Carmo (C.S.) Ch. 4.5</td>
+       <td><a href="Lecture 23.pdf">Handwritten notes</a> </td>
+      </tr>
+      
+      <tr>
+        <td>14.07</td>
+        <td>Symmetries of the curvature tensor</td>
+        <td>Lee (R.M) Ch. 7.1-4</td>
+       <td><a href="Lecture 24.pdf">Handwritten notes</a> </td>
+      </tr>
+
+      <tr>
+        <td>17.07</td>
+        <td>Jacobi fields and curvature of spaceforms</td>
+        <td>Lee (R.M) Ch. 3.2-4, Ch. 10.1-2</td>
+       <td><a href="Lecture 25.pdf">Handwritten notes</a> </td>
+      </tr>
+      
+      <tr>
+        <td>19.07</td>
+        <td>Comparison theory</td>
+        <td>Lee (R.M) Ch. 10.3-4, Ch. 11</td>
+        <td></td>
+      </tr>
+
+<!--      
+      
+      <tr>
+        <td>??.07</td>
+        <td>Rigidity of the Sphere</td>
+        <td>Do Carmo (C.S) Ch 5.3</td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td>??.07</td>
+        <td>Curvature of quotients, homogeneous spaces</td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td>??.07</td>
+        <td>Cut points and conjugate points</td>
+        <td>Lee (R.M) Ch. 10.3-5</td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td>??.07</td>
+        <td>The Cartan-Hadamard theorem</td>
+        <td>Lee(R.M)  Ch. 11.2</td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td>??.07</td>
+        <td>The Bonnet-Myers theorem</td>
+        <td>Lee (R.M) Ch. 11.3</td>
+        <td></td>
+      </tr>
+      
+-->      
+    </tbody>
+  </table>
+</div>
+
+
+
+
+    <script src="/~psmillie/css/bootstrap.bundle.min.js"></script>
+    <script src="/~psmillie/css/katex.min.js"></script>
+    <script src="/~psmillie/css/auto-render.min.js"></script>
+    <script src="/~psmillie/css/rendermath.js"></script>
+  </body>
+</html>
